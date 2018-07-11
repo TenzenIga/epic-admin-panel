@@ -22,15 +22,19 @@
 
 .sidebar{
   height: 100%;
-  width: 220px;
+  width: 240px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
   background-color:#1a1a1a;
+
+}
+.sidebar-menu{
+  height: 100%;
   overflow-y: hidden;
 }
-.sidebar:hover{
+.sidebar-menu:hover{
   overflow-y: scroll;
 }
 .sidebar a {
@@ -42,4 +46,46 @@
 }
 .sidebar a:hover{
   background-color:#000;
+}
+.sidebar-header{
+  color:#4d4d4d;
+}
+.sidebar-avatar{
+  display: block;
+  height: 130px;
+  background-color: blue;
+}
+.sidebar-controllers{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.sidebar-controllers ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-controllers li{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.sidebar-controllers li:hover{
+  background-color: #fff;
+}
+ .active{
+  background-color: #4CAF50;
+}
+
+.sidebar-controllers .glyphicon{
+  font-size: 15px;
+  padding:0 4px;
+  margin:0;
+}
+.sidebar-avatar img{
+  margin: 20px auto;
+  width: 40px;
+  height: 40px;
 }
