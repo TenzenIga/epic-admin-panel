@@ -1,0 +1,45 @@
+.navbar-red{
+  background-color: red;
+  color:blue;
+}
+
+.glyphicon{
+  margin: 10px 5px;
+  font-size: 1.4em;
+}
+.glyphicon-off{
+    font-size: 1.7em;
+    margin: 10px 10px;
+    color: white;
+}
+
+.test{
+  background-color: #E76049;
+}
+ .test:hover{
+      background-color: #F4654D;
+}
+
+.sidebar{
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:#1a1a1a;
+  overflow-y: hidden;
+}
+.sidebar:hover{
+  overflow-y: scroll;
+}
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.sidebar a:hover{
+  background-color:#000;
+}
