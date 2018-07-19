@@ -2,6 +2,7 @@ import React from 'react';
 import {Image, Glyphicon} from 'react-bootstrap';
 import SideBarHeader from './sidebar-header';
 import SideBarControllers from './sidebar-controllers';
+import SearchInput from './search-input';
  const Sidebar = ()=>{
 
   return(
@@ -9,6 +10,7 @@ import SideBarControllers from './sidebar-controllers';
       <SideBarHeader />
       <SideBarControllers />
     <div className="sidebar-menu">
+      <SearchInput />
     <h3 className="sidebar-menu-header">Pages</h3>
 <ul >
  <a href="#">Dashboard</a>
