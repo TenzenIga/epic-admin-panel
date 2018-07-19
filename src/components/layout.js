@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Grid, Row, Col} from 'react-bootstrap';
 import Navigation from './navigation';
-import Sidebar from './sidebar';
+import Sidebar from './sidebar/sidebar';
 class Layout extends Component {
   render() {
     return (
